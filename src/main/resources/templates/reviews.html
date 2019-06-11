@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="reviews-style.css">
+    <link rel="stylesheet" type="text/css" href="reviews-style.css"/>
 </head>
     <title> reviews</title>
     <head> 
@@ -10,9 +10,10 @@
             <h1  id="mainheader">Ryan's Movie Reviews</h1>
 
             <div th:each="review: ${reviews}">
-                <li>
-                   <a th:href="@{/review(id=${review.id})}" th:text="${review.title}"></a>
-                </li>
+                
+                 <h2><a th:href="@{/review(id=${review.id})}" th:text="${review.title}"></a></h2>
+                   <img th:src= "${review.imageUrl}"/>
+                
             </div>
         </body>
     </head>

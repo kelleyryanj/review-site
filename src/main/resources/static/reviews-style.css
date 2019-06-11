@@ -1,0 +1,13 @@
+body {
+   background-image: url("/images/background.jpg");
+   margin-left: 250px;
+   color: white;
+}
+#mainheader {
+     margin-left: 250px;
+}
+
+a{
+   color: white;
+}
+

@@ -3,17 +3,17 @@ package org.wecancodeit.review1;
 public class Review {
 
 	private long id;
-	private String movieGenre;
-	private String movieReview;
+	private String reviewCategory;
+	private String reviewContent;
 	private String imageUrl;
 	private String title;
 
-	public Review(long id, String title, String movieGenre, String imageUrl, String movieReview) {
+	public Review(long id, String title, String reviewCategory, String imageUrl, String reviewContent) {
 		this.id = id;
 		this.title = title;
-		this.movieGenre = movieGenre;
+		this.reviewCategory = reviewCategory;
 		this.imageUrl = imageUrl;
-		this.movieReview = movieReview;
+		this.reviewContent = reviewContent;
 	}
 	
 	public long getId() {
@@ -24,15 +24,15 @@ public class Review {
 		return title;
 	}
 	
-	public String getMovieGenre() {
-		return movieGenre;
+	public String getReviewCategory() {
+		return reviewCategory;
 			}
 	
 	public String getImageUrl() {
 		return imageUrl;
 	}
 	
-	public String getMovieReview() {
-		return movieReview;
+	public String getReviewContent() {
+		return reviewContent;
 	}
 }

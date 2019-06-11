@@ -12,15 +12,16 @@ public class ReviewRepository {
 	private Map<Long, Review> reviewList = new HashMap<>();
 
 	public ReviewRepository() {
-		Review majorPayne = new Review(1L, "Major Payne", "Comedy",
-				"https://i.ibb.co/P6jgBG1/major-payne.jpg",
-				"A funny goofy movie ");
-		Review endgame = new Review(2L, "Avengers: EndGame", "Action/SciFi",
-				"https://i.ibb.co/xX6BjGt/endgame.jpg",
-				"Very serious sometimes emotional ride");
+		Review majorPayne = new Review(1L, "Major Payne", "Comedy", "/images/major-payne.jpg",
+				"A funny goofy movie and lots of fun if you take it for what it is 3/5 stars, ");
+		Review endgame = new Review(2L, "Avengers: EndGame", "Action/SciFi", "/images/endgame.jpg",
+				"THe longest Marvel movie, takes itself too serious at times ut still a good ride 4/5 stars");
+		Review starTrek1 = new Review(3L, "Star Trek The Motion Picture", "Sci FI", "/images/startrek.jpg",
+				"The storyline is odd and they seemed to have blown their effects budget on the Enterprise so you are left with lots of flashing lights later on 2/5 stars");
 
 		reviewList.put(majorPayne.getId(), majorPayne);
 		reviewList.put(endgame.getId(), endgame);
+		reviewList.put(starTrek1.getId(), starTrek1);
 
 	}
 
