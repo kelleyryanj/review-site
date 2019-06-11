@@ -1,7 +1,7 @@
 body{
     background-image: url("/images/background.jpg");
     background-size: cover;
-    color: white;
+    
 
 }
 
@@ -12,24 +12,24 @@ body{
 h1 {
     margin-left: 250px;
     font-size: 40px;
-    color: white;
+    
    }
 
 #genreheader{
     margin-left: 250px;
     font-size: 25px;
-    color: white;
+  
 }
 
 p{
     margin-left: 250px;
-    color: white;
+    
 }
 
 #reviewheader{
     margin-left: 250px;
     font-size: 25px;
-    color: white;
+   
 
 }
 
@@ -38,5 +38,5 @@ img{
 }
 
 a{
-    color: white;
+    margin-left: 250px;
 }

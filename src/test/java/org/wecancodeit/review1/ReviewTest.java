@@ -17,8 +17,8 @@ public class ReviewTest {
 	
 	private long review2Id = 2L;
 	
-	private Review review1 = new Review(review1Id, "movieName", "movieGenre", "review");
-	private Review review2 = new Review(review2Id, "movieName", "movieGenre", "review");
+	private Review review1 = new Review(review1Id, "movieName", "movieGenre", "", "review");
+	private Review review2 = new Review(review2Id, "movieName", "movieGenre", "", "review");
 	
 	@Test
 
